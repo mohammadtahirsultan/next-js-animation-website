@@ -14,17 +14,17 @@ const Agency = () => {
       opacity: 1
     },
     one: {
-      x: '-100%',
+      y: '200%',
       opacity: 0
     },
     two: {
-      x: '100%',
+      y: '-100%',
       opacity: 0
     }
   }
   return (
     <>
-      <section className='agency bg-top'>
+      <section className='agency bg-top max-w-[100vw]'>
         <div className='container'>
           <div className='heading-title'>
             <TitleSm title='ABOUT ARTLINE' /> <br />
@@ -40,16 +40,16 @@ const Agency = () => {
 
               <TitleSm title='Turning your business ideas into smart digital products since 2001' />
               <p className='desc-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus eleifend magna, molestie iaculis sem pulvinar eu. Etiam non dui felis. Proin posuere dapibus magna laoreet posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dignissim, sem eget sollicitudin tempor, libero velit aliquam enim, vel egestas tortor ante quis sem.</p>
-              <div className='grid-3'>
-                <div className='box'>
-                  <h1 className='indigo'>10+</h1>
-                  <h3>Years of experience</h3>
+              <div className='grid-3 max-w-[100vw]'>
+                <div className='box w-8 md:w-full'>
+                  <h1 className='indigo w-2 md:w-full'>10+</h1>
+                  <h3 className="w-20">Years of experience</h3>
                 </div>
-                <div className='box'>
+                <div className='box w-8 md:w-12'>
                   <h1 className='indigo'>50+</h1>
                   <h3>Successful cases</h3>
                 </div>
-                <div className='box'>
+                <div className='box w-8 md:w-12'>
                   <h1 className='indigo'>12+</h1>
                   <h3>Industry awards</h3>
                 </div>

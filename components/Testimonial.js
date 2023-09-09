@@ -69,7 +69,7 @@ const Testimonial = () => {
   return (
     <>
       <section className='testimonial max-w-[100vw] overflow-hidden'>
-        <div className='container'>
+        <div className='container max-w-[100vw]'>
           <div className='heading-title'>
             <TitleSm title='WHAT CLIENTS SAY ABOUT OUR WORK' />
           </div>
@@ -77,7 +77,7 @@ const Testimonial = () => {
             initial={animation.one}
             whileInView={animation.whileInView}
             transition={{ duration: 1.9 }}
-            className='cards'>
+            className='cards max-w-[100vw]'>
             <Slider {...settings}>
               {testimonial.map((user) => (
                 <div>
