@@ -2,7 +2,6 @@ import { home } from "@/assets/data/dummydata"
 import Banner from "@/components/Banner"
 import Expertise from "@/components/Expertise"
 import ShowCase from "@/components/ShowCase"
-import Testimonial from "@/components/Testimonial"
 import { Title, TitleLogo, TitleSm } from "@/components/common/Title"
 import { Brand } from "@/components/router"
 import { motion } from 'framer-motion'
@@ -49,7 +48,7 @@ const Hero = () => {
           <motion.div
             initial={animation.one}
             whileInView={animation.whileInView}
-            transition={{ duration: 4 }}
+            transition={{ duration: 2 }}
           >
             <TitleLogo caption='Artline' className='logobg' />
           </motion.div>
@@ -66,7 +65,7 @@ const Hero = () => {
           <motion.div
             initial={animation.two}
             whileInView={animation.whileInView}
-            transition={{ duration: 6 }}
+            transition={{ duration: 1.5 }}
           >
 
             <div className='sub-heading'>
@@ -114,7 +113,6 @@ const Hero = () => {
       </section>
       <Expertise />
       <Banner />
-      {/* <Testimonial /> */}
       <ShowCase />
       <Brand />
 
