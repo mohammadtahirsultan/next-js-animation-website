@@ -12,7 +12,7 @@ const Brand = () => {
       opacity: 1
     },
     one: {
-      x: '100%',
+      y: '-100%',
       opacity: 0
     }
   }
