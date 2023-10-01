@@ -14,7 +14,7 @@ export const home = [
   },
   {
     icon: <VscFileSubmodule size={25} />,
-    title: "100+ cuccessful cases in portfolio",
+    title: "100+ Successful cases in portfolio",
   },
   {
     icon: <BiUser size={25} />,
@@ -31,19 +31,19 @@ export const expertise = [
   {
     id: 2,
     title: "Digital Marketing",
-    cover: "../images/e2.jpg",
+    cover: "../images/digital-marketing-1.jpg",
     desc: [{ text: "Social media marketing" }, { text: "Marketing campaigns" }, { text: "Markting management" }, { text: "SEO" }],
   },
   {
     id: 3,
-    title: "E-Commerce",
-    cover: "../images/e3.jpg",
-    desc: [{ text: "E-Commerce website design" }, { text: "WooCommerce" }, { text: "Content management" }, { text: "Hosting" }],
+    title: "Logo-Designing",
+    cover: "../images/e4.jpg",
+    desc: [{ text: "Logo-Designing" }, { text: "Logo-Designing" }, { text: "Content management" }, { text: "Hosting" }],
   },
   {
     id: 4,
     title: "Branding & Creative Services",
-    cover: "../images/e4.jpg",
+    cover: "../images/branding-1.jpg",
     desc: [{ text: "Visual identity" }, { text: "Branding for social media" }, { text: "Custom illustrations" }],
   },
 ]
@@ -78,67 +78,141 @@ export const testimonial = [
   },
 ]
 export const showcase = [
-  {
-    id: 1,
-    title: "Neon Lights",
-    cover: "../images/s1.jpg",
-    catgeory: "DIGITAL MARKETING",
-  },
+
   {
     id: 2,
     title: "Futuristic Furniture",
-    catgeory: "WEBSITES",
-    cover: "../images/s2.jpg",
+    catgeory: "gaphics-designing",
+    cover: "../images/gaphics-designing-2.jpg",
   },
   {
     id: 3,
     title: "Smart Living",
-    cover: "../images/s3.jpg",
-    catgeory: "WEBSITES",
+    cover: "../images/gaphics-designing-3.jpg",
+    catgeory: "gaphics-designing",
   },
   {
     id: 4,
     title: "Light Painting",
-    cover: "../images/s4.jpg",
-    catgeory: "BRANDING	",
+    cover: "../images/gaphics-designing-4.jpg",
+    catgeory: "gaphics-designing",
   },
   {
     id: 5,
     title: "Ideabox",
-    cover: "../images/s5.jpg",
-    catgeory: "BRANDING	",
+    cover: "../images/graphics-designing-8.jpg",
+    catgeory: "gaphics-designing",
+  },
+  {
+    id: 1,
+    title: "Neon Lights",
+    cover: "../images/gaphics-designing-7.jpg",
+    catgeory: "gaphics-designing",
   },
   {
     id: 5,
     title: "VR Experience",
-    cover: "../images/s6.jpg",
-    catgeory: "WEBSITES	",
+    cover: "../images/gaphics-designing-5.jpg",
+    catgeory: "gaphics-designing",
   },
+  {
+    id: 5,
+    title: "VR Experience",
+    cover: "../images/gaphics-designing-9.jpg",
+    catgeory: "gaphics-designing",
+  },
+  {
+    id: 5,
+    title: "VR Experience",
+    cover: "../images/graphics-designing-10.jpg",
+    catgeory: "gaphics-designing",
+  },
+  {
+    id: 5,
+    title: "VR Experience",
+    cover: "../images/graphics-designing-11.jpg",
+    catgeory: "gaphics-designing",
+  },
+
+
+]
+
+export const digitalmarketing = [
+
+  {
+    id: 5,
+    title: "VR Experience",
+    cover: "../images/digital-marketing-1.jpg",
+    catgeory: "digital-marketing",
+  },
+  {
+    id: 5,
+    title: "VR Experience",
+    cover: "../images/digital-marketing-2.jpg",
+    catgeory: "digital-marketing",
+  },
+  {
+    id: 5,
+    title: "VR Experience",
+    cover: "../images/digital-marketing-3.jpg",
+    catgeory: "digital-marketing",
+  },
+  {
+    id: 5,
+    title: "VR Experience",
+    cover: "../images/digital-marketing-4.jpg",
+    catgeory: "digital-marketing",
+  },
+  {
+    id: 5,
+    title: "VR Experience",
+    cover: "../images/digital-marketing-5.png",
+    catgeory: "digital-marketing",
+  },
+  {
+    id: 5,
+    title: "VR Experience",
+    cover: "../images/digital-marketing-6.png",
+    catgeory: "digital-marketing",
+  },
+
 ]
 export const brand = [
   {
     id: 1,
-    cover: "../images/l1.svg",
+    title: "VR Experience",
+    catgeory: "branding",
+    cover: "../images/branding-1.jpg",
   },
   {
     id: 2,
-    cover: "../images/l2.svg",
+    title: "VR Experience",
+    catgeory: "branding",
+    cover: "../images/branding-2.jpg",
   },
   {
     id: 3,
-    cover: "../images/l3.svg",
+    title: "VR Experience",
+    catgeory: "branding",
+    cover: "../images/branding-3.jpg",
   },
   {
     id: 4,
-    cover: "../images/l4.svg",
+    title: "VR Experience",
+    catgeory: "branding",
+    cover: "../images/branding-4.jpg",
   },
   {
     id: 5,
-    cover: "../images/l5.svg",
+    title: "VR Experience",
+    catgeory: "branding",
+    cover: "../images/branding-5.jpg",
   },
   {
     id: 6,
-    cover: "../images/l6.svg",
+    title: "VR Experience",
+    catgeory: "branding",
+    cover: "../images/branding-6.jpg",
   },
 ]
 export const blogdata = [
